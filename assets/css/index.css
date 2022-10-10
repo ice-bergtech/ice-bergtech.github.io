@@ -143,7 +143,7 @@ html {
 /* welcome */
 
 .shineWelcome {
-  background-image: url(https://img1.picmix.com/output/stamp/normal/0/8/1/9/829180_6b2d0.gif);
+  background-image: url(../images/829180_6b2d0.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
