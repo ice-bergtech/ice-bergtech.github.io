@@ -1,10 +1,9 @@
 /*
-
 Work Flash
-
-
 */
 
+@import url(../fontawesome-free-6.2.0-web/css/fontawesome.css);
+@import url(../fontawesome-free-6.2.0-web/css/v4-shims.min.css);
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
