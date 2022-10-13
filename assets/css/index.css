@@ -133,9 +133,9 @@ html {
   min-height: 100vh;
 
   color: #fff;
-  width: 55%;
-  right: 10%;
-  left: 35%;
+  width: 60%;
+  right: 20%;
+  left: 20%;
   position: relative;
   /* min-height: 100vh; */
   padding-bottom: 80px;
@@ -352,13 +352,14 @@ html {
 
 .section {
   color: #fff;
-  width: 55%;
-  right: 10%;
-  left: 35%;
+  width: 60%;
+  right: 20%;
+  left: 20%;
   position: relative;
   /* min-height: 100vh; */
   padding-bottom: 80px;
   border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+  background-color: #4a4a4a;
 }
 
 .section-heading {
