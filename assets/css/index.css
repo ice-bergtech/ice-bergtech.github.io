@@ -680,9 +680,9 @@ section.contact-me {
   .section,
   .jumbotron {
     color: #fff;
-    width: 65%;
-    right: 5%;
-    left: 30%;
+    width: 66%;
+    /* right: 27%;
+    left: 27%; */
   }
 }
 
