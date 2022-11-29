@@ -13,18 +13,3 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-
-
-// Parallax Scrolling
-
-window.addEventListener('scroll', function(){
-  var scrollPosition = window.pageYOffset;
-  var bgParallax = document.getElementsByClassName('parallax')[0];
-  var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
-  if (scrollPosition <= limit){
-    bgParallax.style.backgroundPositionY = (100 - 100*scrollPosition/limit) + '%';   
-  }else{
-    bgParallax.style.backgroundPositionY = '50%';    
-  }
-});
