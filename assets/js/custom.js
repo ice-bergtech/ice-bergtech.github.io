@@ -7,9 +7,24 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (mybutton && (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
   }
 }
+
+
+
+// Parallax Scrolling
+
+window.addEventListener('scroll', function(){
+  var scrollPosition = window.pageYOffset;
+  var bgParallax = document.getElementsByClassName('parallax')[0];
+  var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
+  if (scrollPosition <= limit){
+    bgParallax.style.backgroundPositionY = (100 - 100*scrollPosition/limit) + '%';   
+  }else{
+    bgParallax.style.backgroundPositionY = '50%';    
+  }
+});

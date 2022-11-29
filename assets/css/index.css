@@ -19,10 +19,21 @@ body {
   width: 100%;
 }
 
-.container-image {
+/* .container-image {
   background-image: url('../images/bg5-158145965-icy cold water, icebergs, seamless.png');
   background-repeat: repeat;
   background-position: center center;
+  perspective: 3px;
+} */
+
+.container-image {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  background-image: url('../images/bg5-158145965-icy cold water, icebergs, seamless.png');
+  background-repeat: repeat;
+  background-position: center center;
+  z-index: -2;
 }
 
 .container-title {
@@ -369,6 +380,9 @@ html {
   padding-bottom: 1em;
   border-bottom: 3px solid rgba(250, 250, 250, 0.25);
   background-color: #4a4a4a;
+  /* transform: translateZ(-1px); */
+  transform-origin: center top;
+  z-index: 4;
 }
 
 .section-heading {

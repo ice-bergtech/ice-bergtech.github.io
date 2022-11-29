@@ -22,6 +22,17 @@ Also, anyone is welcome to add a new **_feature_** to this website. _Examples_ i
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
+Font Awesome Icons: https://fontawesome.com/v4/icons/
+SVG Icons: https://www.svgrepo.com/
+
+Paralax notes:
+
+* https://freefrontend.com/css-parallax/
+* https://codepen.io/oscicen/pen/zyJeJw
+* https://codepen.io/hexagoncircle/pen/JjRYaZw
+* https://codepen.io/silvandiepen/pen/NOboze
+
+
 #
 <h3> 📌 Snapshot of the Website:</h3>
 
