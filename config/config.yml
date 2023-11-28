@@ -8,7 +8,7 @@ services:
   consulting:
     title: 'Consulting'
     subtitle: 'Learn More &nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i>'
-    link: 'https://icebergtech.xyz/consulting.html'
+    link: 'consulting.html'
     icon: 'assets/images/icons/person-add.svg'
   3d-printing:
     title: '3D-Printing'
@@ -45,3 +45,30 @@ services:
     subtitle: 'Liberapay &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i><br><noscript><a href="https://liberapay.com/IcebergTech/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>'
     link: 'https://liberapay.com/IcebergTech/donate'
     icon: 'assets/images/icons/person-add.svg'
+
+consulting:
+  cloud:
+    title: 'Cloud Infra Design and Deployment'
+    description: 'Provide design input toward cloud architectures, from single services in docker to terraforming multi-cloud container platforms.'
+    image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
+    side: 'left'
+  pentesting:
+    title: 'Pentesting'
+    description: 'You give computer, I poke and prod.'
+    image: 'assets/images/services/00249-2258152576-golden rolling fields of grain with a fence in front, a man looking over the fence, Alfred Sisley.png'
+    side: 'right'
+  devops: 
+    title: 'Service Administration'
+    description: 'Perform administrative tasks such as initial setup, configuration, backups, and data recovery for a wide variety of services, such as Wordpress and static websites.'
+    image: 'assets/images/services/00255-2254054213-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
+    side: 'left'
+  projects:
+    title: Projects 
+    description: '<a href="https://github.com/ice-bergtech" target="_blank">Visit Project</a>'
+    image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
+    side: 'right'
+  pricing:
+    title: 'Pricing'
+    description: 'Usually billed in weekly increments, with scope of work defined and agreed upon beforehand.  Half paid at beginnin, half on delivery. Reach out to dev@icebergtech.xyz to discuss further!'
+    image: 'assets/images/services/00254-2254054216-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
+    side: 'left'
