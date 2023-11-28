@@ -161,17 +161,23 @@ html {
 }
 
 /* welcome */
+@keyframes blub {
+	0% { color: violet; transform: rotateZ(-0.1deg); }
+	33% { color: indigo; transform: rotateZ(0.1deg); }
+	66% { color: red; transform: rotateZ(-0.1deg); }
+  100% { color: violet; transform: rotateZ(-0.1deg); }
+ }
 
 .shineWelcome {
-  background-image: repeating-linear-gradient(45deg, violet, indigo, red, violet);
-  background-size: 800% 800%;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6rem;
   margin: 10px 0;
-  animation: rainbow 8s ease infinite
+  animation-name: blub;
+	animation-duration: 1.7s;
+	animation-iteration-count: infinite;
 }
 .shineWelcome span {
   color: rgba(255, 255, 255, 0.523);
