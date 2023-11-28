@@ -69,6 +69,9 @@ consulting:
     side: 'right'
   pricing:
     title: 'Pricing'
-    description: 'Usually billed in weekly increments, with scope of work defined and agreed upon beforehand.  Half paid at beginnin, half on delivery. Reach out to dev@icebergtech.xyz to discuss further!'
+    description: 'Usually billed in weekly increments, with scope of work defined and agreed upon beforehand.  Half paid at beginnin, half on delivery. Reach out to <a href="mailto:dev@icebergtech.xyz">dev@icebergtech.xyz</a> to discuss further!'
     image: 'assets/images/services/00254-2254054216-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
     side: 'left'
+  #3d printing
+  #networking
+  #pricing
