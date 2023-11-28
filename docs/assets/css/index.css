@@ -163,14 +163,15 @@ html {
 /* welcome */
 
 .shineWelcome {
-  background-image: url(../images/5363bb8015e88dd8c7d0c859eb72ed341a11279f247ec310e742c92cf103b233.gif);
-  background-size: cover;
+  background-image: repeating-linear-gradient(45deg, violet, indigo, red, violet);
+  background-size: 800% 800%;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6rem;
   margin: 10px 0;
+  animation: rainbow 8s ease infinite
 }
 .shineWelcome span {
   color: rgba(255, 255, 255, 0.523);
