@@ -163,8 +163,8 @@ html {
 /* welcome */
 @keyframes blub {
 	0% { color: violet; transform: rotateZ(-0.1deg); }
-	33% { color: indigo; transform: rotateZ(0.1deg); }
-	66% { color: red; transform: rotateZ(-0.1deg); }
+  33% { color: red; transform: rotateZ(-0.1deg); }
+  66% { color: indigo; transform: rotateZ(-0.1deg); }
   100% { color: violet; transform: rotateZ(-0.1deg); }
  }
 
@@ -176,7 +176,7 @@ html {
   font-size: 6rem;
   margin: 10px 0;
   animation-name: blub;
-	animation-duration: 1.7s;
+	animation-duration: 15s;
 	animation-iteration-count: infinite;
 }
 .shineWelcome span {
