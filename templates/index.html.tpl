@@ -42,7 +42,7 @@
           <h2>Products and Services</h2>
         </div>
         <div class="row">
-          {% for item in services.items() %}
+          {%- for key, item in services.items() %}
           <div class="col-md-6 d-flex justify-content-center text-center">
             <a href="{{item.link}}" class="service-item">
               <img class="service-icon" src="{{item.icon}}"></img>
@@ -50,7 +50,7 @@
               {{item.subtitle}}
             </a>
           </div>
-          {% endfor %}
+          {%- endfor %}
         </div>
       </div>
     </section>

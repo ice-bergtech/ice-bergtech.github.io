@@ -14,7 +14,7 @@ services:
     title: '3D-Printing'
     subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
     link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859113'
-    icon: 'assets/images/3d-printer.sv'
+    icon: 'assets/images/3d-printer.svg'
   keyboards:
     title: 'Keyboards'
     subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
@@ -42,6 +42,6 @@ services:
     icon: 'assets/images/wine.svg'
   liberapay:
     title: 'Donations'
-    subtitle: 'Liberapay &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i> <noscript><a href="https://liberapay.com/IcebergTech/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>'
+    subtitle: 'Liberapay &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i><br><noscript><a href="https://liberapay.com/IcebergTech/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>'
     link: 'https://liberapay.com/IcebergTech/donate'
     icon: 'assets/images/person-add.svg'
