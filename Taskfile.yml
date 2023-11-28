@@ -1,0 +1,24 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - task: template-index
+      - task: template-consulting
+
+  template-index:
+    env:
+      FILE: index.html
+    cmds:
+      - sh ./scripts/docker-template.sh
+
+  template-consulting:
+    env:
+      FILE: consulting.html
+    cmds:
+      - sh ./scripts/docker-template.sh

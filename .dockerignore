@@ -7,3 +7,4 @@ Dockerfile
 index_default.html
 Readmd.md
 License.md
+*.tpl
