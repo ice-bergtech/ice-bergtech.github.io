@@ -1,0 +1,47 @@
+---
+services:
+  gb:
+    title: 'Gameboy<br>Peripherals'
+    subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859053'
+    icon: 'assets/images/gameboy.svg'
+  consulting:
+    title: 'Consulting'
+    subtitle: 'Learn More &nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i>'
+    link: 'https://icebergtech.xyz/consulting.html'
+    icon: 'assets/images/person-add.svg'
+  3d-printing:
+    title: '3D-Printing'
+    subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859113'
+    icon: 'assets/images/3d-printer.sv'
+  keyboards:
+    title: 'Keyboards'
+    subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859113'
+    icon: 'assets/images/keyboard.svg'
+  stickers-redbubble:
+    title: 'Stickers'
+    subtitle: 'Redbubble &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://www.redbubble.com/people/icebushi/shop'
+    icon: 'assets/images/redbubble.svg'
+  stickers-etsy:
+    title: 'Stickers'
+    subtitle: 'Etsy &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://www.etsy.com/shop/IcebergTech?section_id=44218674'
+    icon: 'assets/images/redbubble.svg'
+  bandcamp:
+    title: 'Music'
+    subtitle: 'Bandcamp &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://icebaud.bandcamp.com'
+    icon: 'assets/images/bandcamp.svg'
+  orbit-vineyards:
+    title: 'Orbit<br>Vineyards'
+    subtitle: '🚀 Wine &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://orbit.icebergtech.xyz'
+    icon: 'assets/images/wine.svg'
+  liberapay:
+    title: 'Donations'
+    subtitle: 'Liberapay &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i> <noscript><a href="https://liberapay.com/IcebergTech/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>'
+    link: 'https://liberapay.com/IcebergTech/donate'
+    icon: 'assets/images/person-add.svg'
