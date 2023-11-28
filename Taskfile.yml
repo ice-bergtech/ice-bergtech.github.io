@@ -11,6 +11,10 @@ tasks:
       - task: template-index
       - task: template-consulting
 
+  assets:
+    cmds:
+      - cp -r ./assets ./generates/assets
+
   template-index:
     env:
       FILE: index.html
