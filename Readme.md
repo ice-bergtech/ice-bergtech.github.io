@@ -1,6 +1,8 @@
 
 <h1 align="center">Work Flash</h1>
 
+
+
 <h2 align="center"> Work Flash is an Open Source Website built using HTML, CSS, JavaScript and Bootstrap. </h2>
 
 Do you desire greater exposure for your projects? Do you want others to be able to learn from your project? If the answer is yes, you are in the right place. The "Work Flash" website will assist you in growing your network and showcasing your work to the world. Grow your website to attract more viewers by contributing it to "Work Flash."
@@ -21,6 +23,17 @@ Also, anyone is welcome to add a new **_feature_** to this website. _Examples_ i
 ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+
+Font Awesome Icons: https://fontawesome.com/v4/icons/
+SVG Icons: https://www.svgrepo.com/
+
+Paralax notes:
+
+* https://freefrontend.com/css-parallax/
+* https://codepen.io/oscicen/pen/zyJeJw
+* https://codepen.io/hexagoncircle/pen/JjRYaZw
+* https://codepen.io/silvandiepen/pen/NOboze
+
 
 #
 <h3> 📌 Snapshot of the Website:</h3>
@@ -148,3 +161,5 @@ This project is licensed under the [**GPL license**](https://github.com/KiranAmi
   <tbody><tr>
      <td align="center"><a href="https://github.com/KiranAminPanjwani"><img alt="" src="https://user-images.githubusercontent.com/90326051/192037521-3d5fa306-f642-4ae1-a53c-2054f40e2975.png" width="125px;"><br><sub><b> Kiran Panjwani </b></sub></a><br></td> </a></td>
 </tbody></table>
+
+
