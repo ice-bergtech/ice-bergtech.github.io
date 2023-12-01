@@ -2,6 +2,6 @@
 FROM httpd:alpine
 
 WORKDIR /usr/local/apache2/htdocs/
-COPY . .
+COPY ./docs .
 
 EXPOSE 80

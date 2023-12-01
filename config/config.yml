@@ -54,7 +54,7 @@ consulting:
     side: 'left'
   networking:
     title: 'Networking'
-    description:
+    description: Small scale physical PoP to enterprise-scale, multi-cloud network design and implimentation
     image:
     side: 'right'
   pentesting:

@@ -13,7 +13,7 @@
     <section class="section rounded my-work" data-section="section2" id="consulting">
       <div class="container">
         <div class="section-heading">
-          <h2>Consulting</h2>
+          <h1 class="trod">Consulting</h1>
           <div class="line-dec"></div>
           <span>Make your work my work</span>
         </div>
@@ -24,7 +24,7 @@
           <div class="horizontalLine"></div>
           <div class="row align-items-center">
             <div class="col">
-                <h4>{{ item.title }}</h4>
+                <h2 class="trod">{{ item.title }}</h2>
                 {{ item.description }}
             </div>
             <div class="col">
@@ -38,7 +38,7 @@
                 <img src="{{ item.image }}" alt="" />
             </div>
             <div class="col">
-                <h4>{{ item.title }}</h4>
+                <h2 class="trod">{{ item.title }}</h2>
                 {{ item.description }}
             </div>
           </div>

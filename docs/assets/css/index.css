@@ -62,6 +62,10 @@ p {
   color: #fff;
 }
 
+.trod {
+  font-family: "Trod";
+}
+
 h4 {
   font-size: 26px;
   font-weight: 700;
@@ -168,7 +172,7 @@ html {
   100% { color: violet; transform: rotateZ(-0.1deg); }
  }
 
-.shineWelcome {
+.shineRainbow {
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -178,20 +182,22 @@ html {
   animation-name: blub;
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
+  font-family: "Lato";
 }
-.shineWelcome span {
+.shineRainbow span {
   color: rgba(255, 255, 255, 0.523);
 }
 
-.shineWhite {
+.shiteSubtitle {
   color: white;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 4rem;
   margin: 10px 0;
+  font-family: "Lato";
 }
-.shineWhite img {
+.shiteSubtitle img {
   width: 90px;
 }
 .tagline {
@@ -203,17 +209,17 @@ html {
   .jumbotron {
     padding: 120px 0 120px 0;
   }
-  .shineWelcome,
-  .shineWhite {
+  .shineRainbow,
+  .shiteSubtitle {
     font-size: 4.5rem;
   }
 }
 @media (max-width: 471px) {
-  .shineWelcome,
-  .shineWhite {
+  .shineRainbow,
+  .shiteSubtitle {
     font-size: 3rem;
   }
-  .shineWhite img {
+  .shiteSubtitle img {
     width: 60px;
   }
   .tagline {
@@ -221,11 +227,11 @@ html {
   }
 }
 @media (max-width: 350px) {
-  .shineWelcome,
-  .shineWhite {
+  .shineRainbow,
+  .shiteSubtitle {
     font-size: 2.5rem;
   }
-  .shineWhite img {
+  .shiteSubtitle img {
     width: 60px;
   }
   .tagline {
