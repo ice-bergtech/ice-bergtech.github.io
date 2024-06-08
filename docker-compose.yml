@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+    ports: 
+      - 8125:80
+
+  live:
+    image: httpd:alpine
+    volumes:
+      - ./docs:/usr/local/apache2/htdocs/
+    ports: 
+      - 8124:80
