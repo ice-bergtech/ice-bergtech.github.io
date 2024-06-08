@@ -9,7 +9,7 @@ tasks:
   default:
     cmds:
       - task: template-index
-      - task: template-consulting
+
 
   assets:
     cmds:

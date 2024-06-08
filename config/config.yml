@@ -5,11 +5,6 @@ services:
     subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
     link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859053'
     icon: 'assets/images/icons/gameboy.svg'
-  consulting:
-    title: 'Consulting'
-    subtitle: 'Learn More &nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i>'
-    link: 'consulting.html'
-    icon: 'assets/images/icons/person-add.svg'
   3d-printing:
     title: '3D-Printing'
     subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
@@ -47,38 +42,28 @@ services:
     icon: 'assets/images/icons/person-add.svg'
 
 consulting:
+  archive:
+    title: 'Data Discovery / Archival Services'
+    description: ''
+    image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
+    side: 'left'
+  data-mgmt:
+    title: 'Media Recovery / Digitization'
+    description: 'Recover data from a variety of storage mediums, working and not! Formats include digital formats like `.zip`, `.cab`, `.img`, `.iso`. and physical ones like VHS, Laserdisc, ZipDisc, and 3.25" floppies'
+    image: ''
+    side: 'right'
   cloud:
     title: 'Cloud Infra Design and Deployment'
     description: 'Provide design input toward cloud architectures, from single services in docker to terraforming multi-cloud container platforms.'
     image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
     side: 'left'
-  networking:
-    title: 'Networking'
-    description: Small scale physical PoP to enterprise-scale, multi-cloud network design and implimentation
-    image:
-    side: 'right'
   pentesting:
     title: 'Pentesting'
-    description: 'You give computer, I poke and prod.'
+    description: 'You give computer, I break in and tell you where it is vulnerable'
     image: 'assets/images/services/00249-2258152576-golden rolling fields of grain with a fence in front, a man looking over the fence, Alfred Sisley.png'
-    side: 'left'
-  devops: 
-    title: 'Service Administration'
-    description: 'Perform administrative tasks such as initial setup, configuration, backups, and data recovery for a wide variety of services, such as Wordpress and static websites.'
-    image: 'assets/images/services/00255-2254054213-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
     side: 'right'
-  3d-printing:
-    title: 3d-Modeling / Printing
-    description: 
-    image:
-    side: left
-  projects:
-    title: Projects 
-    description: 'Still not convinced?  Check out our various open source projects on github: <a href="https://github.com/ice-bergtech" target="_blank">https://github.com/ice-bergtech</a>'
-    image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
-    side: 'right'
-  pricing:
-    title: 'Pricing'
-    description: 'Usually billed in weekly increments, with scope of work defined and agreed upon beforehand.  Half paid at beginnin, half on delivery. Reach out to <a href="mailto:dev@icebergtech.xyz">dev@icebergtech.xyz</a> to discuss further!'
+  contact:
+    title: 'Contact'
+    description: 'Reach out to <a href="mailto:dev@icebergtech.xyz">dev@icebergtech.xyz</a> to discuss your next project!'
     image: 'assets/images/services/00254-2254054216-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
     side: 'left'

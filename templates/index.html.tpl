@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
-  {% include 'lib/head-inner.html.tpl' %}
-  <title>Iceberg Tech</title>
+<title>Iceberg Tech</title>
+{% include 'lib/head-inner.html.tpl' %}
 </head>
 
 <body>
@@ -24,6 +23,44 @@
               {{item.subtitle}}
             </a>
           </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section rounded my-work" data-section="section2" id="consulting">
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="trod">Consulting</h1>
+          <div class="line-dec"></div>
+          <span>Make your work my work</span>
+        </div>
+        <div class="container">
+          {%- for key, item in consulting.items() %}
+          <!-- {{ key }} -->
+          {%- if item.side == 'right' %}
+          <div class="horizontalLine"></div>
+          <div class="row align-items-center">
+            <div class="col">
+                <h2 class="trod">{{ item.title }}</h2>
+                {{ item.description }}
+            </div>
+            <div class="col">
+                <img src="{{ item.image }}" alt="" />
+            </div>
+          </div>
+          {%- else %}
+          <div class="horizontalLine"></div>
+          <div class="row align-items-center">
+            <div class="col">
+                <img src="{{ item.image }}" alt="" />
+            </div>
+            <div class="col">
+                <h2 class="trod">{{ item.title }}</h2>
+                {{ item.description }}
+            </div>
+          </div>
+          {%- endif %}
           {%- endfor %}
         </div>
       </div>
