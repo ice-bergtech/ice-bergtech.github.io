@@ -10,11 +10,11 @@ services:
     subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
     link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859113'
     icon: 'assets/images/icons/3d-printer.svg'
-  keyboards:
-    title: 'Keyboards'
-    subtitle: 'Store &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
-    link: 'https://www.etsy.com/shop/IcebergTech?section_id=41859113'
-    icon: 'assets/images/icons/keyboard.svg'
+  Github:
+    title: 'Github'
+    subtitle: 'Code &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
+    link: 'https://github.com/ice-bergtech'
+    icon: 'assets/images/icons/github-mark-white.svg'
   stickers-redbubble:
     title: 'Stickers'
     subtitle: 'Redbubble &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>'
