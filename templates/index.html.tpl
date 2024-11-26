@@ -38,7 +38,7 @@
         <div class="container">
           {%- for key, item in consulting.items() %}
           <!-- {{ key }} -->
-          {%- if item.side == 'right' %}
+          {%- if loop.index % 2 == 0 %}
           <div class="horizontalLine"></div>
           <div class="row align-items-center">
             <div class="col">

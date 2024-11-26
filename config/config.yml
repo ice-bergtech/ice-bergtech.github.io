@@ -44,26 +44,21 @@ services:
 consulting:
   archive:
     title: 'Data Discovery / Archival Services'
-    description: ''
+    description: 'Looking for something? '
     image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
-    side: 'left'
   data-mgmt:
     title: 'Media Recovery / Digitization'
     description: 'Recover data from a variety of storage mediums, working and not! Formats include digital formats like `.zip`, `.cab`, `.img`, `.iso`. and physical ones like VHS, Laserdisc, ZipDisc, and 3.25" floppies'
     image: ''
-    side: 'right'
   cloud:
     title: 'Cloud Infra Design and Deployment'
     description: 'Provide design input toward cloud architectures, from single services in docker to terraforming multi-cloud container platforms.'
     image: 'assets/images/services/00252-2254054211-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
-    side: 'left'
   pentesting:
     title: 'Pentesting'
     description: 'You give computer, I break in and tell you where it is vulnerable'
     image: 'assets/images/services/00249-2258152576-golden rolling fields of grain with a fence in front, a man looking over the fence, Alfred Sisley.png'
-    side: 'right'
   contact:
     title: 'Contact'
     description: 'Reach out to <a href="mailto:dev@icebergtech.xyz">dev@icebergtech.xyz</a> to discuss your next project!'
     image: 'assets/images/services/00254-2254054216-a luscious forest, with a small homestead nestled within, Alfred Sisley.png'
-    side: 'left'
