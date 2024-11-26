@@ -20,9 +20,3 @@ tasks:
       FILE: index.html
     cmds:
       - sh ./scripts/docker-template.sh
-
-  template-consulting:
-    env:
-      FILE: consulting.html
-    cmds:
-      - sh ./scripts/docker-template.sh
