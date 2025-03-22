@@ -1,0 +1,4 @@
+Contact: mailto:security@icebergtech.xyz
+Expires: 2027-01-01T09:02:00.000Z
+Preferred-Languages: en
+Canonical: https://icebergtech.xyz/.well-known/security.txt
