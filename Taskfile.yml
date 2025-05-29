@@ -16,7 +16,14 @@ tasks:
       - cp -r ./assets ./generates/assets
 
   template-index:
+    aliases: ['ti']
     env:
       FILE: index.html
+    cmds:
+      - sh ./scripts/docker-template.sh
+  template-srv:
+    aliases: ['ts']
+    env:
+      FILE: server-solutions.html
     cmds:
       - sh ./scripts/docker-template.sh
