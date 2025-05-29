@@ -12,4 +12,4 @@ services:
     volumes:
       - ./docs:/usr/local/apache2/htdocs/
     ports: 
-      - 8124:80
+      - 8127:80
