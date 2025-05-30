@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/css/hack.css" />
     <link rel="stylesheet" href="assets/css/solarized-dark.css" />
     <style>
-        .container { font-size:1.4rem; line-height:1.7rem}
+        .container { font-size:1.4rem !important; line-height:1.7rem !important;}
     </style>
 </head>
 
