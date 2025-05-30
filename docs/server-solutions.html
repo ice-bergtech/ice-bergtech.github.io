@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     <meta name="description" content="Home Server Solutions: Own your compute!" />
     <meta property="og:description" content="Home Server Solutions: Own your compute!" />
@@ -23,18 +22,21 @@
 
     <title>Home Server Solutions</title>
 
-    <link rel="stylesheet" href="hack.css" />
-    <link rel="stylesheet" href="solarized-dark.css" />
+    <link rel="stylesheet" href="assets/css/hack.css" />
+    <link rel="stylesheet" href="assets/css/solarized-dark.css" />
+    <style>
+        .container { font-size:1.4rem; line-height:1.7rem}
+    </style>
 </head>
 
 <body class="hack solarized-dark">
 
+    <div class="container">
     <header>
-        <h1>Home Server Solutions</h1>
-        <p>Own your Compute</p>
+        <h1><a href='index.html'>Iceberg Tech</a> Home Server Solutions</h1>
+        <p>Control your Compute</p>
     </header>
 
-    <div class="container">
         <!-- Summary Section -->
         <section class="summary">
             <h2>Purpose of Our Servers</h2>
@@ -48,7 +50,7 @@
 
         <!-- Product 1: Entry-Level AI Server -->
         <section class="product">
-            <h2>Entry-Level AI Server (2U Chassis or Cube)</h2>
+            <h2>Entry-Level AI Server (2U Chassis or Case)</h2>
             <div class="specs">
                 <h3>Key Specifications</h3>
                 <ul>
@@ -72,7 +74,7 @@
 
         <!-- Product 2: Advanced AI Server -->
         <section class="product">
-            <h2>Advanced AI Server (3U Chassis or )</h2>
+            <h2>Advanced AI Server (3U Chassis or Case)</h2>
             <div class="specs">
                 <h3>Key Specifications</h3>
                 <ul>
@@ -93,11 +95,16 @@
                 modular design makes future upgrades seamless.
             </p>
         </section>
-
-        <!-- Contact Link -->
-        <a href="mailto:info@icebergtech.xyz" class="contact-button">Email Us to Get Started</a>
-                <!-- FAQ -->
+        <section class="contact">
+            <form method="post" action="mailto:info@icebergtech.xyz?subject=RQ%20More%20Server%20Info" enctype="text/plain">
+                <input type="hidden" name="isai" value="naw">
+                <!-- Contact Link -->
+                <button type="submit" class="btn btn-success">Email Us to Get Started</button>
+            </form>
+            <!-- FAQ -->
+        </section>
         <section class="faq">
+        <hr>
         <h2>Frequently Asked Questions</h2>
         
         <div class="faq-item">
@@ -149,13 +156,12 @@
             </details>
         </div>
         </section>
+        <h1 ::after></h1>
+        <div>
+            &copy; 2025 Iceberg Tech LLC. | <a href='index.html'>Home</a> | Contact: info@icebergtech.xyz
+        </div>
     </div>
-    </div>
-
-    <footer>
-        &copy; 2025 Iceberg Tech LLC. | Contact: info@icebergtech.xyz
-    </footer>
-
+</div>
 </body>
 
 </html>
